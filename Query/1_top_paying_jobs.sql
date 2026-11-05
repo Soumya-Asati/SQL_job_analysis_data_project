@@ -21,4 +21,5 @@ WHERE
     job_location IN ('Anywhere', 'India') AND
     salary_year_avg IS NOT NULL
 ORDER BY
-    salary_year_avg DESC;
+    salary_year_avg DESC
+LIMIT 10;
